@@ -1,80 +1,56 @@
-Welcome to the Chocolate Brewery System!
-A console-based Java application that simulates a chocolate production environment. Manage ingredients, recipes, production, and customer orders — all in one system.
+# Chocolate Brewery System
 
+A console-based Java application that simulates a chocolate production environment. Manage ingredients, recipes, production, and customer orders.
 
-🚀 Features
+## Features
 
-Ingredient Management:
-Add, track, and update ingredients in inventory.
+**Ingredient Management:**
+- Add, track, and update ingredients in inventory
 
-Recipe Management:
-Create, store, update, and remove chocolate recipes with required ingredients and output quantity.
+**Recipe Management:**
+- Create, store, update, and remove chocolate recipes
+- Define required ingredients and output quantity
 
-Production Area:
-Produce chocolate batches based on recipes, checking inventory and updating chocolate bars automatically.
+**Production Area:**
+- Produce chocolate batches based on recipes
+- Automatic inventory checking and updates
 
-Customer Orders:
-Take orders from customers and process them using the production system.
+**Customer Orders:**
+- Take and process customer orders
+- Sequential order processing
 
-Order Manager:
-Maintain a list of orders, process them sequentially, and display completed orders.
+**Inventory Tracking:**
+- Automatic ingredient deduction
+- Chocolate bar stock updates
 
-Inventory Tracking:
-Automatically deduct ingredients used and update chocolate bar stock after production.
+## How It Works
 
+1. Add ingredients to the system (cocoa, sugar, milk, etc.)
+2. Create recipes specifying ingredients and outputs
+3. Take customer orders with recipe choice and quantity
+4. Process orders through production area
+5. System automatically updates inventory
 
-📋 How It Works
+## Technologies
 
-Add Ingredients to the system (e.g., cocoa, sugar, milk).
+- Java (OOP principles)
+- Console I/O
+- Collections (ArrayList)
+- Responsibility-Driven Design
 
-Create Recipes specifying ingredients and chocolate output.
+## Project Structure
 
-Take Customer Orders including recipe choice and quantity.
+- `ingredients.java` - Ingredient class
+- `recipie.java` - Recipe class
+- `Recipe_storage.java` - Recipe management
+- `Inventory_sm.java` - Inventory management
+- `production_area.java` - Production handling
+- `customer_order.java` - Order details
+- `order_manager.java` - Order processing
+- `Main.java` - User interface
 
-Process Orders using the production area — system checks inventory and produces chocolate.
+## Learning Outcomes
 
-Update Inventory automatically and display completed orders.
-
-
-🛠️ Technologies Used
-
-Java (OOP concepts, classes, objects, arrays, ArrayLists)
-
-Console I/O for interaction
-
-Core Java Collections for storing ingredients, recipes, and orders
-
-Responsibility Driven design patterns
-
-
-
-📂 Project Structure
-
-ingredients.java → Represents each ingredient.
-
-recipie.java → Represents a chocolate recipe.
-
-Recipe_storage.java → Manages all recipes in the system.
-
-Inventory_sm.java → Manages ingredients and chocolate bar stock.
-
-production_area.java → Handles production of chocolate batches.
-
-customer_order.java → Stores customer order details.
-
-order_manager.java → Processes and manages customer orders.
-
-Main.java → User interface for adding ingredients, recipes, and orders.
-
-
-
-🎯 Learning Outcomes
-
-Applied Object-Oriented Programming principles in Java.
-
-Learned to manage inventory and production systems programmatically.
-
-Understood interaction between multiple classes and real-world problem-solving.
-
-
-
+- Applied OOP principles in Java
+- Managed inventory and production systems
+- Understood class interaction and real-world problem solving
